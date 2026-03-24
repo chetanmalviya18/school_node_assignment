@@ -174,13 +174,13 @@ List Schools → GET request with query params
 
 ## 🌐 Live API
 
-https://your-app.onrender.com
+https://slooze-school-node-assignment.onrender.com
 
 ---
 
 ## 📬 Postman Collection
 
-<your-postman-link>
+
 
 ---
 
