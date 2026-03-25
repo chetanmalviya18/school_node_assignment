@@ -25,6 +25,20 @@ This API allows users to add schools and retrieve a list of schools sorted by pr
 
 ---
 
+## ⚠️ Database Deployment Note
+
+Due to limitations of free-tier cloud services, a fully managed MySQL database could not be reliably deployed alongside the backend on the same platform.
+
+The backend API is successfully deployed on Render. However, Render currently provides native support for PostgreSQL, not MySQL, which is required as per the assignment specifications.
+
+To adhere to the requirement of using MySQL:
+
+- The application is configured to work with a MySQL database.
+- All APIs have been fully tested in a local development environment using MySQL.
+- The deployed version may require an external MySQL service (e.g., Railway or other providers) for full functionality.
+
+---
+
 ## 📁 Project Structure
 
 ```
@@ -70,6 +84,7 @@ DB_HOST=localhost
 DB_USER=root
 DB_PASSWORD=your_password
 DB_NAME=school_db
+DB_PORT=3306
 ```
 
 ---
